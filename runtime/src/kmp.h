@@ -3588,6 +3588,7 @@ KMP_EXPORT kmp_int32 __kmpc_bound_thread_num(ident_t *);
 KMP_EXPORT kmp_int32 __kmpc_bound_num_threads(ident_t *);
 
 KMP_EXPORT kmp_int32 __kmpc_ok_to_fork(ident_t *);
+KMP_EXPORT void __kmpc_orqos_kv(ident_t *);
 KMP_EXPORT void __kmpc_fork_call(ident_t *, kmp_int32 nargs,
                                  kmpc_micro microtask, ...);
 

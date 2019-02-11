@@ -248,6 +248,12 @@ void __kmpc_push_proc_bind(ident_t *loc, kmp_int32 global_tid,
 
 #endif /* OMP_40_ENABLED */
 
+void __kmpc_orqos_kv (ident_t *loc)
+{
+	fprintf (stderr, "[%s:%s:%d] Check\n", __FILE__, __func__, __LINE__);
+	/// GVALLEE: FIXME
+}
+
 /*!
 @ingroup PARALLEL
 @param loc  source location information
